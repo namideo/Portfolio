@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(210, 219, 228); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Profile-Picture {
+    height: 250px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    border: 7px solid rgb(40, 40, 255);
+}
+
+.header {
+    background-color: rgb(40, 40, 255);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.About-Me {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Profile-Picture {
+    margin-left: 150px;
+}
+
+.Work {
+    margin-left: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Code-Refactor {
+    margin-left: 250px;
+}
+
+.image {
+    padding: 5px;
+    border: 7px solid rgb(40, 40, 255);
+}
+
+.more-images {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 200px;
+}
+
+.PlaceHolder1 {
+    border: 7px solid rgb(40, 40, 255);
+}
+
+.PlaceHolder2 {
+    border: 7px solid rgb(40, 40, 255);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 50px;
+    height: 100px;
+}
+
+.grid-container h3 {
+    padding-top: 5px;
+}
