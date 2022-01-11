@@ -9,5 +9,6 @@ For this project I started a portfolio page to showcase skills learned so far in
 3. The "About Me" portion features a brief paragraph about myself as well as a profile picture. 
 4. The "Work" segment features a large image, which also works as a link to my previous assignment working on the code-refactor. As it is the only work I have to show so far, I put it at the top followed by two place-holder images for the time being. The place-holder images are also smaller and staggered below the first image, as laid out in the criteria. 
 5. "Flex" has been added to the display in the css so as to make the page adaptable to different viewports.
+6. My contact information has a place for a phone number and email as well as an actual link to my GitHub page.
 
 ![screencapture-file-C-Users-Nick-GT-ATL-VIRT-FSF-PT-12-2021-U-C-Homework-Portfolio-index-html-2022-01-10-23_20_56](https://user-images.githubusercontent.com/94868925/148881943-2bf93ccf-2047-4c87-9bd6-a401336b981b.png)
