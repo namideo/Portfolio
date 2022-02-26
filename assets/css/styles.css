@@ -12,17 +12,18 @@ body {
 .Profile-Picture {
     height: 250px;
     width: 200px;
-    float: left;
-    margin: 20px;
+    margin-right: 40px;
+    margin-left: 115px;
     border: 7px solid rgb(40, 40, 255);
 }
 
 .header {
     background-color: rgb(40, 40, 255);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 75px;
 }
 
-.header h1 {
+.header h1 {    
     display: inline-block;
     font-size: 40px;
     margin-left: 20px;
@@ -47,10 +48,6 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.Profile-Picture {
-    margin-left: 150px;
-}
-
 .Work {
     margin-left: 50px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -68,11 +65,13 @@ body {
 .more-images {
     display: grid;
     grid-template-columns: auto auto auto;
-    margin-left: 200px;
+    margin-left: 250px;
 }
 
-.PlaceHolder1 {
+.Projects {
     border: 7px solid rgb(40, 40, 255);
+    height: 250px;
+    width: 400px;
 }
 
 .PlaceHolder2 {
@@ -81,7 +80,7 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-left: 50px;
     height: 100px;
@@ -90,3 +89,4 @@ body {
 .grid-container h3 {
     padding-top: 5px;
 }
+
