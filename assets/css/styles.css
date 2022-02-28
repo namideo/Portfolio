@@ -9,6 +9,14 @@ body {
     justify-content: center;
 }
 
+p {
+    font-size: 20px;
+}
+
+a {
+    font-size: 20px;
+}
+
 .Profile-Picture {
     height: 250px;
     width: 200px;
@@ -20,17 +28,18 @@ body {
 .header {
     background-color: rgb(40, 40, 255);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 75px;
+    height: 80px;
 }
 
 .header h1 {    
     display: inline-block;
     font-size: 40px;
     margin-left: 20px;
+    padding-top: 15px;
 }
 
 .header div {
-    padding-top: 15px;
+    padding-top: 25px;
     margin-right: 20px;
     float: right;
     font-size: 20px;
@@ -72,10 +81,6 @@ body {
     border: 7px solid rgb(40, 40, 255);
     height: 250px;
     width: 400px;
-}
-
-.PlaceHolder2 {
-    border: 7px solid rgb(40, 40, 255);
 }
 
 .grid-container {
