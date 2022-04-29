@@ -3,95 +3,86 @@
 }
 
 body {
-    background-color: rgb(210, 219, 228); 
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-p {
-    font-size: 20px;
+header {
+    background-color: rgb(33, 33, 33);
 }
 
-a {
-    font-size: 20px;
+.column {
+    padding: 10px;
+    overflow: scroll;
+}
+
+.left {
+    width: 25%;
+}
+
+.right {
+    width: 75%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .Profile-Picture {
-    height: 250px;
-    width: 200px;
-    margin-right: 40px;
-    margin-left: 115px;
-    border: 7px solid rgb(40, 40, 255);
+    height: 300px;
+    width: 215px;
+    margin-top: 50px;
+    border-radius: 15%;
+    align-items: center;
 }
 
-.header {
-    background-color: rgb(40, 40, 255);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 80px;
+.Profile {
+    text-align: center;
 }
 
-.header h1 {    
-    display: inline-block;
-    font-size: 40px;
-    margin-left: 20px;
-    padding-top: 15px;
+.Bio {
+    margin-top: 50px;
 }
 
-.header div {
-    padding-top: 25px;
-    margin-right: 20px;
-    float: right;
-    font-size: 20px;
-}
-
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-.About-Me {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 50px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.Contact {
+    margin-top: 50px;
 }
 
 .Work {
-    margin-left: 50px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.Work-1 {
-    margin-left: 250px;
-}
-
-.image {
-    padding: 5px;
-    border: 7px solid rgb(40, 40, 255);
-}
-
-.more-images {
     display: grid;
-    grid-template-columns: auto auto auto;
-    margin-left: 250px;
+    grid-template-columns: auto auto;
+    text-align: center;
+    align-content: center;
 }
 
 .Projects {
-    border: 7px solid rgb(40, 40, 255);
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.image {
     height: 250px;
     width: 400px;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left: 50px;
-    height: 100px;
+.card {
+    overflow: scroll;
+    border: none;
 }
 
-.grid-container h3 {
-    padding-top: 5px;
+.Work {
+    margin-top: 75px;
 }
 
+#Work {
+    margin-top:75px;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}

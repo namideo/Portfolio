@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Team Profile</title>
+    <title>Portfolio</title>
     <script src="https://kit.fontawesome.com/3f947f4d9f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
               integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"/>
@@ -13,88 +13,82 @@
 </head>
 
 <body>
-    <header class="header">
-        <h1>Nick Amideo</h1>
-        <div>
-            <ul>
-                <li>
-                    <a href="#About-Me">About Me</a>
-                </li>
-                <li>
-                    <a href="#Work">Work</a>
-                </li>
-                <li>
-                    <a href="#Contact">Contact</a>
-                </li>
-                <li>
-                    <a href="file:///Users/namideo/Nikorasu/Important/writing/Computer%20Coding%20Resume.pdf">Resume</a>
-                </li>
-                </ul>
+    <header class="header display-flex justify-space-between align-center p-2">
+            <p><a href="#About-Me">About Me</a> | <a href="#Work">Work</a>  |  <a href="#contactInfo">Contact</a>  |  <a href="file:///Users/namideo/Nikorasu/Important/writing/Computer%20Coding%20Resume.pdf">Resume</a>
+            </p>
+</header>
+
+
+
+    <div class="row">
+
+        <div class="Profile column left">
+
+        <div><img class="Profile-Picture" src="assets/images/IMG_4111.jpg" alt="Profile Picture"></div>
+        
+
+        <div class="Contact" id="contactInfo">
+            
+                <div><h3>Contact Info:</h3></div>
+                <br>
+                <br>
+                <div><p><i class="fa-solid fa-mobile-screen-button"></i> <strong>(404) 729-8051</strong></p></div> 
+                <br>
+                <div><p><i class="fa-solid fa-envelope"></i> <a href="mailto:namideo@gmail.com"><strong>namideo@gmail.com</strong></a></p></div> 
+                <br>
+                <div><p><i class="fa-solid fa-user-tie"></i> <strong><a href="https://www.linkedin.com/in/nick-amideo-767b3b39/" target="_blank">LinkedIn</a></strong></p></div>
+                <br>
+                <div><p><i class="fa-solid fa-desktop"></i> <strong><a href="https://github.com/namideo" target="_blank">GitHub</a></strong></p></div>
+            </div>
+        </div>  
+        
+
+
+                 
+
+            <div class="column right">
+
+                <div class="Bio" id="About-Me">
+                    <h2>Nick Amideo</h2>
+                    <br>
+                    <div>
+                    <p>Welcome to my page! I am a Georgia native and up and coming developer. I have spent most of my adult life in the retail and restaurant industries. Having worked in hospitality for a long time I am ready to take my life and abilities into new territory. Some of my hobbies include running and video editing.
+                    </p></div>
+                </div>                
+
+                <h1 id="Work">Work</h1>
+
+                <div class="Work">
+                
+                <div class="Projects"><h3>Restaurant Menu Application</h3>
+                    <a href="https://people-eatery.herokuapp.com/"target="_blank">
+                    <img class="image" src="assets/images/E89EA731-BADB-4037-B106-6CD1DBD2B95E.png" alt="People-Eatery"></a>
+                    <a href="https://github.com/namideo/people_eatery">https://github.com/namideo/people_eatery</a>
+                </div>
+
+                <div class="Projects"><h3>Movie Search Engine</h3>
+                    <a href="https://itzhefe.github.io/Movies-you-will-love/" target="_blank">
+                    <img class="image" src="assets/images/06C513B0-9570-4D88-B46C-EA47F4ED5AED.png" alt="Movies"></a>
+                    <a href="https://github.com/namideo/Movies-you-will-love">https://github.com/namideo/Movies-you-will-love</a>
+                </div>
+
+                <div class="Projects"><h3>Weather Dashboard</h3>
+                    <a href="https://namideo.github.io/Weather-Dashboard/" target="_blank">
+                    <img class="image" src="assets/images/C9072C3A-EDCF-4C0D-B6CB-DF1F9BC40C41_1_105_c.jpeg" alt="Weather Dashboard"></a>
+                    <a href="https://github.com/namideo/Weather-Dashboard">https://github.com/namideo/Weather-Dashboard</a>
+                </div>
+
+                <div class="Projects"><h3>Note Taker</h3>
+                    <a href="https://nicknotetaker-app.herokuapp.com/" target="_blank">
+                    <img class="image" src="assets/images/AD1EA748-1CA4-424C-8A52-52AAE501942E_1_105_c.jpeg" alt="Note Taker"></a>
+                    <a href="https://github.com/namideo/Note-Taker-Express.js">https://github.com/namideo/Note-Taker-Express.js</a>
+                </div>
+
+                </div>      
         </div>
-    </header>
+</div>
 
-    <main>
-        <section id="About-Me">
-
-            <div class="About-Me">
-
-            <div><h2>About Me</h2></div>
-            <div><img class="Profile-Picture" src="assets/images/IMG_4111.jpg" alt="Profile Picture"></div>
-            <div><p>Welcome to my page! I am a Georgia native and up and coming developer. I have spent most of my adult life in the retail and restaurant industries. Having worked in hospitality for a long time I am ready to take my life and abilities into new territory. Some of my hobbies include running and video editing.
-                 </p></div>
-            </div>
-        </section>
-
-         <section id="Work"> 
-
-             <div class="Work">
-
-                 <h2>Work</h2>
-
-                <div class="Work-1">
-                <h3>Restaurant Menu Application</h3>
-                    <a href="https://github.com/namideo/people_eatery" target="_blank">
-                    <img class="image" src="assets/images/E89EA731-BADB-4037-B106-6CD1DBD2B95E.png" alt="People-Eatery"
-                     width="900" height="1200"></a>
-                    <a href="https://people-eatery.herokuapp.com/"><strong>https://github.com/namideo/people_eatery</strong></a></div>
-
-                <br>
-                <br>
-                <br>
-
-                <div class="more-images">
-
-                    <div></div>
-
-                    <div><h3>Movie Search Engine</h3>
-                            <a href="https://github.com/namideo/Movies-you-will-love" target="_blank">
-                            <img class="Projects" src="assets/images/06C513B0-9570-4D88-B46C-EA47F4ED5AED.png" alt="Movies"></a>
-                            <a href="https://itzhefe.github.io/Movies-you-will-love/"><strong>https://github.com/namideo/Movies-you-will-love</strong></a></div>
-
-                    <div><h3>Weather Dashboard</h3>
-                            <a href="https://github.com/namideo/Weather-Dashboard" target="_blank">
-                            <img class="Projects" src="assets/images/C9072C3A-EDCF-4C0D-B6CB-DF1F9BC40C41_1_105_c.jpeg" alt="Quiz Game"></a>
-                            <a href="https://namideo.github.io/Weather-Dashboard/"><strong>https://github.com/namideo/Weather-Dashboard</strong></a></div>
-                </div>
-
-        </section>
-
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <section id="Contact">
-            <div class="grid-container">
-                <div><h2>Contact Info:</h2></div>
-                <div><h3>(404) 729-8051</h3></div> 
-                <div><h3>namideo@gmail.com</h3></div> 
-                <div><h3><a href="https://www.linkedin.com/in/nick-amideo-767b3b39/" target="_blank">Linkedin</a></h3></div>
-                <div><h3><a href="https://github.com/namideo" target="_blank">GitHub</a></h3>
-                </div>
-            </div>
-        </section>  
-    </main>
+    
 
     <footer></footer>
 
