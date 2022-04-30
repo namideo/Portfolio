@@ -12,6 +12,10 @@ header {
     background-color: rgb(33, 33, 33);
 }
 
+.links {
+    float: right;
+}
+
 .column {
     padding: 10px;
     overflow: scroll;
@@ -45,6 +49,8 @@ header {
 
 .Bio {
     margin-top: 50px;
+    padding-bottom: 75px;
+    border-bottom: solid;
 }
 
 .Contact {
@@ -68,17 +74,12 @@ header {
     width: 400px;
 }
 
-.card {
-    overflow: scroll;
-    border: none;
-}
-
 .Work {
-    margin-top: 75px;
+    margin-top: 100px;
 }
 
 #Work {
-    margin-top:75px;
+    margin-top: 75px;
 }
 
 @media screen and (max-width: 600px) {
