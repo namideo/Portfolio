@@ -11,4 +11,5 @@ For this project I started a portfolio page to showcase skills learned so far in
 5. "Flex" has been added to the display in the css so as to make the page adaptable to different viewports.
 6. My contact information has a place for a phone number and email as well as an actual link to my GitHub page.
 
-![screencapture-file-C-Users-Nick-GT-ATL-VIRT-FSF-PT-12-2021-U-C-Homework-Portfolio-index-html-2022-01-10-23_20_56](https://user-images.githubusercontent.com/94868925/148881943-2bf93ccf-2047-4c87-9bd6-a401336b981b.png)
+
+![screencapture-file-Users-namideo-Bootcamp-Homework-Portfolio-index-html-2022-04-30-14_14_14](https://user-images.githubusercontent.com/94868925/166117797-49356d14-4b29-4f9b-a4f5-7eed08aef8ea.png)
